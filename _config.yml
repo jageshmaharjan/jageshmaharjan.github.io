@@ -110,14 +110,14 @@ author:
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My research interest is in Machine Learning & Deep Learning, especially in Natural Language Processing (NLP) and computer vision (CV)"
   location         : "Shenzhen"
-  email            : ""
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: mailto:jageshmaharjan@hotmail.com
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-       url: "https://www.linkedin.com/in/jagesh-jugs-maharjan-4237b81b/"
+       url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -293,11 +293,10 @@ defaults:
       comments: # true
       share: true
       related: true
-
   # _pages
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
