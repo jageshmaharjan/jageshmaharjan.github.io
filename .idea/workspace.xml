@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5e7cc1-8b02-4fbc-8a94-16b450149be7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_pages/404.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/blogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/blogs.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,14 +39,14 @@
         <counts>
           <entry key="html" value="28" />
           <entry key="md" value="919" />
-          <entry key="yml" value="171" />
+          <entry key="yml" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="28" />
           <entry key="Markdown" value="919" />
-          <entry key="YAML" value="171" />
+          <entry key="YAML" value="182" />
         </counts>
       </usages-collector>
     </session>
@@ -93,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -177,6 +173,11 @@
               <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jageshmaharjan.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550560752470</updated>
-      <workItem from="1550560754078" duration="7414000" />
+      <workItem from="1550560754078" duration="7567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7414000" />
+    <option name="totallyTimeSpent" value="7567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="900" y="24" width="1020" height="993" extended-state="4" />
@@ -307,8 +308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
         </state>
       </provider>
     </entry>
