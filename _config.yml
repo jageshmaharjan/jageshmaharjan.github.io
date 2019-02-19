@@ -110,7 +110,7 @@ author:
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My research interest is in Machine Learning & Deep Learning, especially in Natural Language Processing (NLP) and computer vision (CV)"
   location         : "Shenzhen"
-  email            : "jageshmaharjan@hotmail.com"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -293,10 +293,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
   # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
