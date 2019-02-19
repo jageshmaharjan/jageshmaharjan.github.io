@@ -107,8 +107,8 @@ analytics:
 # Site Author
 author:
   name             : "Jagesh Maharjan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My research interst is in Machine Learning & Deep Learning, especially in Natural Language Processing (NLP) and computer vision (CV)"
+  avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "My research interest is in Machine Learning & Deep Learning, especially in Natural Language Processing (NLP) and computer vision (CV)"
   location         : "Shenzhen"
   email            :
   links:
@@ -283,6 +283,17 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
   - scope:
       path: ""
       type: posts
