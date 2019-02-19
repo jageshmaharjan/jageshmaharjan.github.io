@@ -1,7 +1,7 @@
 ---
 title: "DeepSpeech by Baidu Inc."
 date: 2019-02-19
-tags: [machine learning, deep learning, ctc, rnn, ctc, language model]
+tags: [machine learning, deep learning, ctc, rnn, lstm, language model]
 header:
    image: "/images/deepspeech/deepspeech.jpg"
 excerpt: "Machine Learning, CTC, LSTM, RNN"

@@ -6,7 +6,7 @@ main:
 #     url: /blogs/
    - title: "About"
      url: /about/
-   - title: "Machine Learning"
+   - title: "News"
      url: /news/
   # - title: "Sample Collections"
   #   url: /collection-archive/
