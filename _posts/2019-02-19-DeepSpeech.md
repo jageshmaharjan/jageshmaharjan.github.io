@@ -1,11 +1,11 @@
-------
-title: "DeepSpeech by Baidu"
+---
+title: "DeepSpeech by Baidu Inc."
 date: 2019-02-19
 tags: [machine learning, deep learning, ctc, rnn, ctc, language model]
 header:
    image: "/images/deepspeech/deepspeech.jpg"
 excerpt: "Machine Learning, CTC, LSTM, RNN"
-------
+---
 
 #H1 Heading
 
@@ -23,7 +23,7 @@ put a [link](https://github.com/jageshmaharjan)
 Put bulletins
 * first
 + second
-- thired
+- third
 
 number list
 1. one
