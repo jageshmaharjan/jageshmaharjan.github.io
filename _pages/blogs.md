@@ -1,0 +1,5 @@
+-------
+layout: archive
+peramlink: /blogs/
+
+-------
