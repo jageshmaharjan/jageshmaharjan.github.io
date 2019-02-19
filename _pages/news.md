@@ -8,8 +8,7 @@ header:
 Mathjax: true
 ---
 
-# News
 
-* YouTube Video on [Distributed Tensorflow](https://youtu.be/lA3GZMuJhhA)
-* Youtube Video on [Creating MPI Clister](https://youtu.be/p_zrgZnE4Qg)
+* YouTube Video on [![Distributed Tensorflow](images/TFDist.png)](https://youtu.be/lA3GZMuJhhA)
+* Youtube Video on [![Creating MPI Clister](/images/MPI.png)](https://youtu.be/p_zrgZnE4Qg)
 
