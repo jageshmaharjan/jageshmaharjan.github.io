@@ -5,9 +5,9 @@ main:
 #  - title: "Blog"
 #     url: /blogs/
    - title: "About"
-     url: "/about/"
+     url: /about/
    - title: "Machine Learning"
-     url: "/blogs/"
+     url: /blogs/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
