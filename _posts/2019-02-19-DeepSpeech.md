@@ -7,11 +7,11 @@ header:
 excerpt: "Machine Learning, CTC, LSTM, RNN"
 ---
 
-#H1 Heading
+# H1 Heading
 
-##H2 Heading
+## H2 Heading
 
-###H3 heading
+### H3 heading
 
 here's some basic text
 
