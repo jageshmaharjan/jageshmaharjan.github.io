@@ -17,6 +17,6 @@ Mathjax: true
 ### Achievements
 
 + Winner of TechCrunch Hackathon held in Beijing, P.R.China
-  [![TechCrunch](/imaGges/Techcrunch.png)](https://cn.technode.com/post/2016-11-06/techcrunch-bj-2016-hackathon-champion/)
+  [![TechCrunch](/images/Techcrunch.png)](https://cn.technode.com/post/2016-11-06/techcrunch-bj-2016-hackathon-champion/)
   
 + Chinese Government Scholarship at [Tsinghua University](http://ac.cs.tsinghua.edu.cn/)
