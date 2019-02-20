@@ -1,6 +1,6 @@
 ---
 title: "DeepSpeech by Baidu Inc."
-date: 2019-02-19
+date: 2018-08-19
 tags: [Machine Learning, Deep Learning, CTC, RNN, LSTM, language model]
 header:
    image: "/images/deepspeech/deepspeech.jpg"
@@ -55,5 +55,48 @@ For Chinese Model, requires the pinyin alphabets along with 10 digits from 0 to 
 
 We shall prepare our language mode using [KenLM](https://kheafield.com/code/kenlm/).
 The Mozilla DeepSpeech recommend us to use KenLM which is most compatible lm for the training.
-First we need a corpus of vocabulary to create language model. 
+First we need a corpus of vocabulary to create language model. <br/> 
+
+Install the KenLM tool <br/>
+`wget -O - https://kheafield.com/code/kenlm.tar.gz |tar xz` <br/>
+`mkdir kenlm/build` <br/>
+`cd kenlm/build` <br/>
+`cmake ..` <br/>
+`make -j2` <br/>
+
+once you build the KenLM tool, its time to create a language model from the vocabulary corpus. <br/>
+`bin/lmplz -o 5 vocabulary.txt text.arpa` <br/>
+This will generate intermediate product with arpa extension.
+Now, let's run one script <br/>
+`bin/build_binary text.arpa text.binary` <br/>
+
+So, we have the language model (lm) named text.binary <br/>
+
+### Trie model
+
+Building a trie model is pretty simple and straightforward. Trie model is used during the decoding process after ctc, 
+the task i mentioned earlier. It dose the beam search for every character output from the acoustic model. <br/>
+![trie model](/home/jugs/IdeaProjects/jageshmaharjan.github.io/images/deepspeech/beam.png)
+
+we can generate the trie model from the native_client provided by the deepspeech. <br/>
+`native_client/generate_trie language_model.binary, alphabets.txt, vocabulary trie.binary` <br/>
+
+### Training the ASR model
+By now we have everything, except the last missing piece of puzzle and obvious i.e asr model.
+Let's train with the deepspeech <br/>
+`$ python DeepSpeech.py --train_files /data/zh_data/data_thchs30/mini_train.csv --dev_files /data/zh_data/data_thchs30/mini_dev.csv --test_files /data/zh_data/data_thchs30/mini_test.csv --alphabet_config_path /data/zh_data/alphabet.txt --lm_binary_path /data/zh_data/zh_lm.binary --lm_trie_path /data/zh_data/trie --decoder_library_path native_client/libctc_decoder_with_kenlm.so --checkpoint_dir /data/zh_data/checkpoint/ --validation_step --epochs 75 ` <br/>
+
+Since I use distributed tensorflow, as described in my youTube video, 
+the process looks lik this in parameter server. <br/>
+![Parameter Server](/images/deepspeech/parameterS.jpg) <br/>
+
+and Worker server looks like this <br/>
+![worker server](/images/deepspeech/workerS.jpg)
+
+Once, the training is almost over, the evaluation will be show as <br/>
+![evaluation](/images/deepspeech/zh_deepspeech_training.png)
+
+The above training uses distributed tensorflow. I also used horovod implementation for 
+training using MPI.
+
 
