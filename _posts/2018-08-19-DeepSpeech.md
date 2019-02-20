@@ -76,7 +76,7 @@ So, we have the language model (lm) named text.binary <br/>
 
 Building a trie model is pretty simple and straightforward. Trie model is used during the decoding process after ctc, 
 the task i mentioned earlier. It dose the beam search for every character output from the acoustic model. <br/>
-![trie model](/home/jugs/IdeaProjects/jageshmaharjan.github.io/images/deepspeech/beam.png)
+![trie model](/images/deepspeech/beam.png)
 
 we can generate the trie model from the native_client provided by the deepspeech. <br/>
 `native_client/generate_trie language_model.binary, alphabets.txt, vocabulary trie.binary` <br/>
