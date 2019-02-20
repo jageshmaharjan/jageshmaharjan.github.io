@@ -118,6 +118,9 @@ Check this link for setting up [NFS](https://www.digitalocean.com/community/tuto
 
 By now, setting up is all done. It's time to run our MPI.
 
+Summary,
+![Summary](/images/MPI/cluster.jpg)
+
 `mpirun -np 4 --hosts master, client python deepspeech.sh`
 
 In next topic, I'll go through installing the MPI (open MPI)

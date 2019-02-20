@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5e7cc1-8b02-4fbc-8a94-16b450149be7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/MPI/cluster.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-06-Creating-MPI-Cluster.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-06-Creating-MPI-Cluster.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -45,14 +46,14 @@
         <counts>
           <entry key="2019-02-14-BERT" value="297" />
           <entry key="html" value="29" />
-          <entry key="md" value="6671" />
+          <entry key="md" value="6701" />
           <entry key="yml" value="267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="6671" />
+          <entry key="Markdown" value="6701" />
           <entry key="PLAIN_TEXT" value="297" />
           <entry key="YAML" value="267" />
         </counts>
@@ -85,9 +86,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-Creating-MPI-Cluster.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="670">
+                <caret line="121" column="35" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -270,18 +271,18 @@
       <option name="presentableId" value="Default" />
       <updated>1550560752470</updated>
       <workItem from="1550560754078" duration="12835000" />
-      <workItem from="1550576225125" duration="23456000" />
+      <workItem from="1550576225125" duration="23852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36291000" />
+    <option name="totallyTimeSpent" value="36687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="602" y="24" width="1318" height="993" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.357524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35675675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -407,9 +408,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-Creating-MPI-Cluster.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="670">
+            <caret line="121" column="35" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
