@@ -20,7 +20,7 @@ client or multiple Master and multiple Client.
 Make sure to choose the one that has the GPU, because while running the command we assume the 
 numbers of worker resource in parameter as GPU but not CPU.
 Once you create your VM through Azure portal, and you can see the list of your VM.
-[Azure VM's](/images/MPI/Azure.png). 
+[![Azure VM's](/images/MPI/Azure.png)]. 
 
 And, forgot to mention, to have one same user name common for
 all VM's, there is a reason for this, which I'll talk later.
@@ -28,7 +28,7 @@ I encounter this while accessing the data over NFS.
 By Now, I'll assume that we have a list of VM and we are ready to assign the name as 
 masters and workers. Under the terminal of all of your VM's make sure to assign 
 the same name, so that we have same pattern.
-[/etc/hosts](/images/MPI/hosts.jpg)
+[![/etc/hosts](/images/MPI/hosts.jpg)]
 
 ### setup ssh server and rsa/dsa key on client and the master
 
