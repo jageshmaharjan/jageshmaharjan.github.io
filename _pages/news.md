@@ -20,6 +20,7 @@ Mathjax: true
   [![TechCrunch](/images/Techcrunch.png)](https://cn.technode.com/post/2016-11-06/techcrunch-bj-2016-hackathon-champion/)
   
 + Chinese Government Scholarship at [Tsinghua University](http://ac.cs.tsinghua.edu.cn/)
+![Tsinghua Twitter](/images/thu.png)
 
 + Best Project Award on Distributed Database System, on Final CourseProject, under the supervision 
   of Professor [Ling Feng](https://www.tsinghua.edu.cn/publish/csen/4623/2010/20101224173832153159683/20101224173832153159683_.html)
