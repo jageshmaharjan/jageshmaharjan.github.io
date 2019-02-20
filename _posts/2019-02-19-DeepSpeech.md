@@ -1,10 +1,10 @@
 ---
 title: "DeepSpeech by Baidu Inc."
 date: 2019-02-19
-tags: [machine learning, deep learning, ctc, rnn, lstm, language model]
+tags: [Machine Learning, Deep Learning, CTC, RNN, LSTM, language model]
 header:
    image: "/images/deepspeech/deepspeech.jpg"
-excerpt: "machine learning, deep learning, ctc, rnn, lstm, language model"
+excerpt: "Machine Learning, Deep Learning, CTC, RNN, LSTM, language model"
 ---
 
 [DeepSpeech](https://arxiv.org/pdf/1412.5567.pdf) came all the way in 2014 from Baidu Inc. published by my senior 
