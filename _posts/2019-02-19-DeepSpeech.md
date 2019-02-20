@@ -31,4 +31,29 @@ Since the paper do not mention anything about the hyperparameters so implementin
  is tedious to get the result based on the paper. Hence, we refer to the open
  source implementation of the [DeepSpeech by Mozilla](https://discourse.mozilla.org/c/deep-speech).
 
-Thanks to Mozilla for making it open source and providing it in GitHub.    
+Thanks to Mozilla for making it open source and providing it in GitHub.
+
+## Training on DeepSpeech
+
+[Mozilla's implementation of DeepSpeech](https://github.com/mozilla/DeepSpeech) is based on tensorflow.
+
+### Preparing the csv file of data
+The input data for the Acoustic model are the "train.csv", "test.csv" and "dev.csv" files
+The csv file is in the format of: wav_filepath, wav_filesize, transcript
+
+`Eg:` <br/>
+`wav_filepath, wav_filesize, transcript` <br/> 
+`/path/to/wavefile/file1.wav, 205xxx, this is a sample sentence` <br/>
+`/path/to/wavefile/file2.wav, 781xx, the dog ate the sweets` <br/>
+
+### Preparing the alphabets
+For training the english ASR model, the alphabets consist of 26 english alphabets (a-z)
+ and 0-9 (10) digit integers. <br/>
+For Chinese Model, requires the pinyin alphabets along with 10 digits from 0 to 9.
+
+### Language Model
+
+We shall prepare our language mode using [KenLM](https://kheafield.com/code/kenlm/).
+The Mozilla DeepSpeech recommend us to use KenLM which is most compatible lm for the training.
+First we need a corpus of vocabulary to create language model. 
+
