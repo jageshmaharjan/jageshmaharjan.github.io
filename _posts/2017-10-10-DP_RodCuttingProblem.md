@@ -1,10 +1,10 @@
 ---
 title: "Dynamic Programming::Rod Cutting Problem"
 date: 2018-08-19
-tags: [machine learning, deep learning, ctc, rnn, lstm, language model]
+tags: [Data Structure & Algorithms, Dynamic Programming, Optimization]
 header:
    image: "/images/deepspeech/deepspeech.jpg"
-excerpt: "Machine Learning, CTC, LSTM, RNN"
+excerpt: "Data Structure & Algorithms, Dynamic Programming, Optimization"
 ---
 
 [Rod Cutting problem](http://users.csc.calpoly.edu/~dekhtyar/349-Spring2010/lectures/lec09.349.pdf) is one of the most 

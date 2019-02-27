@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5e7cc1-8b02-4fbc-8a94-16b450149be7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rodcutting/RodCutting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1043928193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,14 +49,14 @@
           <entry key="2017-01-02-MyCheatSheet" value="4" />
           <entry key="2019-02-14-BERT" value="297" />
           <entry key="html" value="29" />
-          <entry key="md" value="10984" />
+          <entry key="md" value="11047" />
           <entry key="yml" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="10984" />
+          <entry key="Markdown" value="11047" />
           <entry key="PLAIN_TEXT" value="301" />
           <entry key="YAML" value="279" />
         </counts>
@@ -84,8 +81,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
-                <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+              <first_editor relative-caret-position="108">
+                <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
               </first_editor>
               <second_editor />
             </state>
@@ -286,18 +283,18 @@
       <workItem from="1550560754078" duration="12835000" />
       <workItem from="1550576225125" duration="38930000" />
       <workItem from="1551284576404" duration="75000" />
-      <workItem from="1551293936144" duration="1206000" />
+      <workItem from="1551293936144" duration="1706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53046000" />
+    <option name="totallyTimeSpent" value="53546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12862414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12862414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -311,7 +308,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,8 +468,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+          <first_editor relative-caret-position="108">
+            <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           </first_editor>
           <second_editor />
         </state>
