@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5e7cc1-8b02-4fbc-8a94-16b450149be7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-14-BERT.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-14-BERT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2018-08-11-DP_CoinChange.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/changemaking/changemaking.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +33,7 @@
           <entry key="2019-02-14-BERT" value="1" />
           <entry key="html" value="3" />
           <entry key="jpg" value="18" />
-          <entry key="md" value="14" />
+          <entry key="md" value="16" />
           <entry key="png" value="11" />
           <entry key="yml" value="7" />
         </counts>
@@ -42,7 +42,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Image" value="29" />
-          <entry key="Markdown" value="14" />
+          <entry key="Markdown" value="16" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="7" />
         </counts>
@@ -52,14 +52,14 @@
           <entry key="2017-01-02-MyCheatSheet" value="4" />
           <entry key="2019-02-14-BERT" value="297" />
           <entry key="html" value="29" />
-          <entry key="md" value="11236" />
+          <entry key="md" value="11929" />
           <entry key="yml" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="11236" />
+          <entry key="Markdown" value="11929" />
           <entry key="PLAIN_TEXT" value="301" />
           <entry key="YAML" value="279" />
         </counts>
@@ -68,12 +68,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-DeepSpeech.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="90">
                 <caret line="5" column="40" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-11-DP_CoinChange.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="419">
+                <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,6 +183,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" />
         <option value="$PROJECT_DIR$/_posts/2019-02-14-BERT.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-11-DP_CoinChange.md" />
       </list>
     </option>
   </component>
@@ -219,13 +244,7 @@
               <item name="jageshmaharjan.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="knapsack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jageshmaharjan.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="rodcutting" type="462c0819:PsiDirectoryNode" />
+              <item name="changemaking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,14 +261,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/deepspeech" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/changemaking" />
       <recent name="$PROJECT_DIR$/images/rodcutting" />
       <recent name="$PROJECT_DIR$/images/deepspeech" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/MPI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/deepspeech" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,12 +298,12 @@
       <workItem from="1550576225125" duration="38930000" />
       <workItem from="1551284576404" duration="75000" />
       <workItem from="1551293936144" duration="1783000" />
-      <workItem from="1551373785156" duration="1408000" />
+      <workItem from="1551373785156" duration="2105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55031000" />
+    <option name="totallyTimeSpent" value="55728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
@@ -431,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-DP_RodCuttingProblem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -480,6 +490,26 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="90">
             <caret line="5" column="40" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-11-DP_CoinChange.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="419">
+            <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
