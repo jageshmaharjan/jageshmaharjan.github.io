@@ -3,7 +3,7 @@ title: "Dynamic Programming::Change Making Problem"
 date: 2018-08-11
 tags: [Data Structure & Algorithms, Dynamic Programming, Optimization]
 header:
-   image: "/images/deepspeech/shenzhen.jpg"
+   image: "/images/shenzhen.jpg"
 excerpt: "Data Structure & Algorithms, Dynamic Programming, Optimization"
 ---
 
