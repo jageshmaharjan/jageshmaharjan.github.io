@@ -10,7 +10,7 @@ excerpt: "Data Structure & Algorithms, Dynamic Programming, Optimization"
 [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem) is a combinatorial optimization 
 problem in [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming). 
 
-The wikipedia link above explain the formal definition of Knapsack Problem  [knapsack problem](/images/knapsack/Knapsack.png)
+The wikipedia link above explain the formal definition of Knapsack Problem  ![knapsack problem](/images/knapsack/Knapsack.png)
 
 And, based on the illustration of the problem statement, I've implemented the knapsack problem in java.
 **Before** diving into the implementation, please read the problem definition to solve by yourself.
