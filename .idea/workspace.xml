@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5e7cc1-8b02-4fbc-8a94-16b450149be7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,14 +50,14 @@
           <entry key="2017-01-02-MyCheatSheet" value="4" />
           <entry key="2019-02-14-BERT" value="297" />
           <entry key="html" value="29" />
-          <entry key="md" value="11198" />
+          <entry key="md" value="11227" />
           <entry key="yml" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="11198" />
+          <entry key="Markdown" value="11227" />
           <entry key="PLAIN_TEXT" value="301" />
           <entry key="YAML" value="279" />
         </counts>
@@ -95,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="124" selection-start-line="12" selection-start-column="124" selection-end-line="12" selection-end-column="124" />
               </first_editor>
               <second_editor />
             </state>
@@ -240,6 +239,12 @@
               <item name="jageshmaharjan.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="knapsack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jageshmaharjan.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jageshmaharjan.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="rodcutting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -293,12 +298,12 @@
       <workItem from="1550576225125" duration="38930000" />
       <workItem from="1551284576404" duration="75000" />
       <workItem from="1551293936144" duration="1783000" />
-      <workItem from="1551373785156" duration="988000" />
+      <workItem from="1551373785156" duration="1113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54611000" />
+    <option name="totallyTimeSpent" value="54736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
@@ -318,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32849163" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281075" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -488,8 +493,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-DP_KnapsackProblem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="124" selection-start-line="12" selection-start-column="124" selection-end-line="12" selection-end-column="124" />
           </first_editor>
           <second_editor />
         </state>
